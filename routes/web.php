@@ -22,9 +22,7 @@ use App\Http\Controllers\Adminhomecontroller;
 |
 */
 
-// Route::get('/',function(){
-// return view('hompg');
-// });
+
 Route::get('/', [Homecontroller::class,'show']);
 
 Route::get('/home', [Homecontroller::class,'create']);
