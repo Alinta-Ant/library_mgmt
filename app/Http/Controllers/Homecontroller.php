@@ -45,7 +45,7 @@ class Homecontroller extends Controller
      */
     public function show()
     {
-        return view('first');
+        return view('welcome');
     }
 
     /**
