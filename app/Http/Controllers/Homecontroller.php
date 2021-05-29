@@ -23,6 +23,7 @@ class Homecontroller extends Controller
      */
     public function create()
     {
+        
         return view('home');
     }
 
